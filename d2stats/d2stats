@@ -1,0 +1,132 @@
+#!/usr/bin/env ruby
+
+# tpl = char_equip_lvls.values.sum.to_f / char_equip_lvls.keys.length.to_f
+# min_equip = char_equip_lvls.min_by { |_k, v| v }
+
+require './lib/bungie_api'
+require './lib/bungie_db'
+require './lib/character'
+require './lib/item'
+require 'open-uri'
+require 'optparse'
+require 'yaml'
+require 'zip'
+
+def load_config
+  @conf = YAML.safe_load(File.read('./config.yaml'))
+  OptionParser.new do |opts|
+    opts.banner = 'Usage: ./d2stats [OPTIONS]'
+    opts.on('-d',
+            '--display_name DISPLAY_NAME',
+            'Override Display Name to show stats for') do |v|
+      @conf['display_name'] = v
+    end
+    opts.on('-v',
+            '--verbose',
+            'Verbose output') do |v|
+      @conf['verbose'] = v
+    end
+    opts.on('-d',
+            '--debug',
+            'Debug output') do |v|
+      @conf['debug'] = v
+    end
+  end.parse!
+end
+
+def extract_zip(file, destination)
+  FileUtils.mkdir_p(destination)
+  Zip::File.open(file) do |zip_file|
+    zip_file.each do |f|
+      fpath = File.join(destination, f.name)
+      zip_file.extract(f, fpath) unless File.exist?(fpath)
+    end
+  end
+end
+
+def latest_world_database(b_api)
+  puts 'checking for latest world item database...'
+  data = b_api.fetch_manifest
+  db_file_name = File.basename(data['mobileWorldContentPaths']['en'])
+  if File.directory?('./world_db') && File.exist?("./world_db/#{db_file_name}")
+    puts 'world item database up to date'
+    return db_file_name
+  end
+  puts 'downloading latest world item database...'
+  FileUtils.rm_rf('./world_db') if File.directory?('./world_db')
+  FileUtils.rm_rf('./world.zip') if File.exist?('./world.zip')
+  b_api.download_manifest('./world.zip', data['mobileWorldContentPaths']['en'])
+  extract_zip('./world.zip', './world_db')
+  File.delete('./world.zip') if File.exist?('./world.zip')
+  db_file_name
+end
+
+def fetch_characters(b_api, b_db)
+  data = b_api.fetch_characters
+  characters = data['characters']['data'].map do |char_id, char_data|
+    puts 'getting character information...'
+    char = Character.new(id: char_id,
+                         pl: char_data['light'],
+                         char_class: b_db.lookup_data(char_data['classHash'],
+                                                      'Class'),
+                         race: b_db.lookup_data(char_data['raceHash'],
+                                                'Race'),
+                         gender: b_db.lookup_data(char_data['genderHash'],
+                                                  'Gender'))
+    puts 'getting item information...'
+    char = fetch_equipment(b_api, b_db, char)
+    char
+  end.flatten
+  characters
+end
+
+def fetch_equipment(b_api, b_db, char)
+  data = b_api.fetch_equipment
+  data['characterEquipment']['data'].each do |char_id, char_data|
+    next if char.id != char_id
+    char_data['items'].each do |item|
+      i = fetch_item(b_api, b_db, item)
+      next if i.nil?
+      char.items.push(i)
+    end
+  end
+  char
+end
+
+def fetch_item(b_api, b_db, item)
+  item_info = b_api.fetch_item(item['itemInstanceId'])
+  return nil if item_info['instance']['data']['primaryStat'].nil?
+  Item.new(id: item['itemInstanceId'],
+           hash: item['itemHash'],
+           pl: item_info['instance']['data']['primaryStat']['value'],
+           name: b_db.lookup_data(item['itemHash'], 'InventoryItem'),
+           quality: item_info['instance']['data']['quality'],
+           damage_mod: false)
+end
+
+def output_characters(characters)
+  puts
+  characters.each do |char|
+    puts %(#{char.class} #{char.race} #{char.gender}
+Power Level: #{char.pl}
+Items:)
+    char.items.each do |item|
+      puts %(  #{item.name}
+    Power Level: #{item.pl}
+    Quality: #{item.quality})
+    end
+    puts
+  end
+end
+
+def main
+  load_config
+  b_api = BungieAPI.new(@conf)
+  db_file_name = latest_world_database(b_api)
+  b_db = BungieDB.new(db_file_name)
+  b_api.fetch_member_id
+  characters = fetch_characters(b_api, b_db)
+  output_characters(characters)
+end
+
+main

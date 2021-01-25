@@ -1,0 +1,45 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require 'colored'
+require 'optparse'
+require './lib/dice_roller'
+
+def parse_args
+  args = { dice: [], short: false }
+  OptionParser.new do |opts|
+    opts.banner = 'Usage: ./roll [OPTIONS]'
+    opts.on('-d', '--dice DICE', Array, 'Dice to roll for') do |v|
+      args[:dice] = v
+    end
+    opts.on('-s', '--short', 'short output') do |v|
+      args[:short] = v
+    end
+  end.parse!
+
+  raise 'must pass dice to roll' unless args[:dice]
+  args
+end
+
+def output_roll_results(args, d, rolls, total)
+  if !args[:short]
+    puts "\nRolling #{d.iterations} d#{d.die_value}..."
+    puts "Rolls: #{rolls.to_s.yellow}"
+    puts "Modifier: #{d.mod_operator.yellow}#{d.mod_val.to_s.yellow}\n\n" if d.mod_val
+    puts "Total roll: #{total.to_s.green}\n\n"
+  else
+    puts total
+  end
+end
+
+def main
+  args = parse_args
+  args[:dice].each do |die|
+    d = Die.new(die)
+    roller = DiceRoller.new
+    rolls, total = roller.roll_dice(d)
+    output_roll_results(args, d, rolls, total)
+  end
+end
+
+main

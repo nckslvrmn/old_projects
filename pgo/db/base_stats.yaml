@@ -1,0 +1,1981 @@
+---
+bulbasaur:
+  :attack: 118
+  :defense: 111
+  :stamina: 128
+ivysaur:
+  :attack: 151
+  :defense: 143
+  :stamina: 155
+venusaur:
+  :attack: 198
+  :defense: 189
+  :stamina: 190
+charmander:
+  :attack: 116
+  :defense: 93
+  :stamina: 118
+charmeleon:
+  :attack: 158
+  :defense: 126
+  :stamina: 151
+charizard:
+  :attack: 223
+  :defense: 173
+  :stamina: 186
+squirtle:
+  :attack: 94
+  :defense: 121
+  :stamina: 127
+wartortle:
+  :attack: 126
+  :defense: 155
+  :stamina: 153
+blastoise:
+  :attack: 171
+  :defense: 207
+  :stamina: 188
+caterpie:
+  :attack: 55
+  :defense: 55
+  :stamina: 128
+metapod:
+  :attack: 45
+  :defense: 80
+  :stamina: 137
+butterfree:
+  :attack: 167
+  :defense: 137
+  :stamina: 155
+weedle:
+  :attack: 63
+  :defense: 50
+  :stamina: 120
+kakuna:
+  :attack: 46
+  :defense: 75
+  :stamina: 128
+beedrill:
+  :attack: 169
+  :defense: 130
+  :stamina: 163
+pidgey:
+  :attack: 85
+  :defense: 73
+  :stamina: 120
+pidgeotto:
+  :attack: 117
+  :defense: 105
+  :stamina: 160
+pidgeot:
+  :attack: 166
+  :defense: 154
+  :stamina: 195
+rattata:
+  :attack: 103
+  :defense: 70
+  :stamina: 102
+raticate:
+  :attack: 161
+  :defense: 139
+  :stamina: 146
+spearow:
+  :attack: 112
+  :defense: 60
+  :stamina: 120
+fearow:
+  :attack: 182
+  :defense: 133
+  :stamina: 163
+ekans:
+  :attack: 110
+  :defense: 97
+  :stamina: 111
+arbok:
+  :attack: 167
+  :defense: 153
+  :stamina: 155
+pikachu:
+  :attack: 112
+  :defense: 96
+  :stamina: 111
+raichu:
+  :attack: 193
+  :defense: 151
+  :stamina: 155
+sandshrew:
+  :attack: 126
+  :defense: 120
+  :stamina: 137
+sandslash:
+  :attack: 182
+  :defense: 175
+  :stamina: 181
+nidoran♀:
+  :attack: 86
+  :defense: 89
+  :stamina: 146
+nidorina:
+  :attack: 117
+  :defense: 120
+  :stamina: 172
+nidoqueen:
+  :attack: 180
+  :defense: 173
+  :stamina: 207
+nidoran♂:
+  :attack: 105
+  :defense: 76
+  :stamina: 130
+nidorino:
+  :attack: 137
+  :defense: 111
+  :stamina: 156
+nidoking:
+  :attack: 204
+  :defense: 156
+  :stamina: 191
+clefairy:
+  :attack: 107
+  :defense: 108
+  :stamina: 172
+clefable:
+  :attack: 178
+  :defense: 162
+  :stamina: 216
+vulpix:
+  :attack: 96
+  :defense: 109
+  :stamina: 116
+ninetales:
+  :attack: 169
+  :defense: 190
+  :stamina: 177
+jigglypuff:
+  :attack: 80
+  :defense: 41
+  :stamina: 251
+wigglytuff:
+  :attack: 156
+  :defense: 90
+  :stamina: 295
+zubat:
+  :attack: 83
+  :defense: 73
+  :stamina: 120
+golbat:
+  :attack: 161
+  :defense: 150
+  :stamina: 181
+oddish:
+  :attack: 131
+  :defense: 112
+  :stamina: 128
+gloom:
+  :attack: 153
+  :defense: 136
+  :stamina: 155
+vileplume:
+  :attack: 202
+  :defense: 167
+  :stamina: 181
+paras:
+  :attack: 121
+  :defense: 99
+  :stamina: 111
+parasect:
+  :attack: 165
+  :defense: 146
+  :stamina: 155
+venonat:
+  :attack: 100
+  :defense: 100
+  :stamina: 155
+venomoth:
+  :attack: 179
+  :defense: 143
+  :stamina: 172
+diglett:
+  :attack: 109
+  :defense: 78
+  :stamina: 67
+dugtrio:
+  :attack: 167
+  :defense: 134
+  :stamina: 111
+meowth:
+  :attack: 92
+  :defense: 78
+  :stamina: 120
+persian:
+  :attack: 150
+  :defense: 136
+  :stamina: 163
+psyduck:
+  :attack: 122
+  :defense: 95
+  :stamina: 137
+golduck:
+  :attack: 191
+  :defense: 162
+  :stamina: 190
+mankey:
+  :attack: 148
+  :defense: 82
+  :stamina: 120
+primeape:
+  :attack: 207
+  :defense: 138
+  :stamina: 163
+growlithe:
+  :attack: 136
+  :defense: 93
+  :stamina: 146
+arcanine:
+  :attack: 227
+  :defense: 166
+  :stamina: 207
+poliwag:
+  :attack: 101
+  :defense: 82
+  :stamina: 120
+poliwhirl:
+  :attack: 130
+  :defense: 123
+  :stamina: 163
+poliwrath:
+  :attack: 182
+  :defense: 184
+  :stamina: 207
+abra:
+  :attack: 195
+  :defense: 82
+  :stamina: 93
+kadabra:
+  :attack: 232
+  :defense: 117
+  :stamina: 120
+alakazam:
+  :attack: 271
+  :defense: 167
+  :stamina: 146
+machop:
+  :attack: 137
+  :defense: 82
+  :stamina: 172
+machoke:
+  :attack: 177
+  :defense: 125
+  :stamina: 190
+machamp:
+  :attack: 234
+  :defense: 159
+  :stamina: 207
+bellsprout:
+  :attack: 139
+  :defense: 61
+  :stamina: 137
+weepinbell:
+  :attack: 172
+  :defense: 92
+  :stamina: 163
+victreebel:
+  :attack: 207
+  :defense: 135
+  :stamina: 190
+tentacool:
+  :attack: 97
+  :defense: 149
+  :stamina: 120
+tentacruel:
+  :attack: 166
+  :defense: 209
+  :stamina: 190
+geodude:
+  :attack: 132
+  :defense: 132
+  :stamina: 120
+graveler:
+  :attack: 164
+  :defense: 164
+  :stamina: 146
+golem:
+  :attack: 211
+  :defense: 198
+  :stamina: 190
+ponyta:
+  :attack: 170
+  :defense: 127
+  :stamina: 137
+rapidash:
+  :attack: 207
+  :defense: 162
+  :stamina: 163
+slowpoke:
+  :attack: 109
+  :defense: 98
+  :stamina: 207
+slowbro:
+  :attack: 177
+  :defense: 180
+  :stamina: 216
+magnemite:
+  :attack: 165
+  :defense: 121
+  :stamina: 93
+magneton:
+  :attack: 223
+  :defense: 169
+  :stamina: 137
+farfetch'd:
+  :attack: 124
+  :defense: 115
+  :stamina: 141
+doduo:
+  :attack: 158
+  :defense: 83
+  :stamina: 111
+dodrio:
+  :attack: 218
+  :defense: 140
+  :stamina: 155
+seel:
+  :attack: 85
+  :defense: 121
+  :stamina: 163
+dewgong:
+  :attack: 139
+  :defense: 177
+  :stamina: 207
+grimer:
+  :attack: 135
+  :defense: 90
+  :stamina: 190
+muk:
+  :attack: 190
+  :defense: 172
+  :stamina: 233
+shellder:
+  :attack: 116
+  :defense: 134
+  :stamina: 102
+cloyster:
+  :attack: 186
+  :defense: 256
+  :stamina: 137
+gastly:
+  :attack: 186
+  :defense: 67
+  :stamina: 102
+haunter:
+  :attack: 223
+  :defense: 107
+  :stamina: 128
+gengar:
+  :attack: 261
+  :defense: 149
+  :stamina: 155
+onix:
+  :attack: 85
+  :defense: 232
+  :stamina: 111
+drowzee:
+  :attack: 89
+  :defense: 136
+  :stamina: 155
+hypno:
+  :attack: 144
+  :defense: 193
+  :stamina: 198
+krabby:
+  :attack: 181
+  :defense: 124
+  :stamina: 102
+kingler:
+  :attack: 240
+  :defense: 181
+  :stamina: 146
+voltorb:
+  :attack: 109
+  :defense: 111
+  :stamina: 120
+electrode:
+  :attack: 173
+  :defense: 173
+  :stamina: 155
+exeggcute:
+  :attack: 107
+  :defense: 125
+  :stamina: 155
+exeggutor:
+  :attack: 233
+  :defense: 149
+  :stamina: 216
+cubone:
+  :attack: 90
+  :defense: 144
+  :stamina: 137
+marowak:
+  :attack: 144
+  :defense: 186
+  :stamina: 155
+hitmonlee:
+  :attack: 224
+  :defense: 181
+  :stamina: 137
+hitmonchan:
+  :attack: 193
+  :defense: 197
+  :stamina: 137
+lickitung:
+  :attack: 108
+  :defense: 137
+  :stamina: 207
+koffing:
+  :attack: 119
+  :defense: 141
+  :stamina: 120
+weezing:
+  :attack: 174
+  :defense: 197
+  :stamina: 163
+rhyhorn:
+  :attack: 140
+  :defense: 127
+  :stamina: 190
+rhydon:
+  :attack: 222
+  :defense: 171
+  :stamina: 233
+chansey:
+  :attack: 60
+  :defense: 128
+  :stamina: 487
+tangela:
+  :attack: 183
+  :defense: 169
+  :stamina: 163
+kangaskhan:
+  :attack: 181
+  :defense: 165
+  :stamina: 233
+horsea:
+  :attack: 129
+  :defense: 103
+  :stamina: 102
+seadra:
+  :attack: 187
+  :defense: 156
+  :stamina: 146
+goldeen:
+  :attack: 123
+  :defense: 110
+  :stamina: 128
+seaking:
+  :attack: 175
+  :defense: 147
+  :stamina: 190
+staryu:
+  :attack: 137
+  :defense: 112
+  :stamina: 102
+starmie:
+  :attack: 210
+  :defense: 184
+  :stamina: 155
+mr. mime:
+  :attack: 192
+  :defense: 205
+  :stamina: 120
+scyther:
+  :attack: 218
+  :defense: 170
+  :stamina: 172
+jynx:
+  :attack: 223
+  :defense: 151
+  :stamina: 163
+electabuzz:
+  :attack: 198
+  :defense: 158
+  :stamina: 163
+magmar:
+  :attack: 206
+  :defense: 154
+  :stamina: 163
+pinsir:
+  :attack: 238
+  :defense: 182
+  :stamina: 163
+tauros:
+  :attack: 198
+  :defense: 183
+  :stamina: 181
+magikarp:
+  :attack: 29
+  :defense: 85
+  :stamina: 85
+gyarados:
+  :attack: 237
+  :defense: 186
+  :stamina: 216
+lapras:
+  :attack: 165
+  :defense: 174
+  :stamina: 277
+ditto:
+  :attack: 91
+  :defense: 91
+  :stamina: 134
+eevee:
+  :attack: 104
+  :defense: 114
+  :stamina: 146
+vaporeon:
+  :attack: 205
+  :defense: 161
+  :stamina: 277
+jolteon:
+  :attack: 232
+  :defense: 182
+  :stamina: 163
+flareon:
+  :attack: 246
+  :defense: 179
+  :stamina: 163
+porygon:
+  :attack: 153
+  :defense: 136
+  :stamina: 163
+omanyte:
+  :attack: 155
+  :defense: 153
+  :stamina: 111
+omastar:
+  :attack: 207
+  :defense: 201
+  :stamina: 172
+kabuto:
+  :attack: 148
+  :defense: 140
+  :stamina: 102
+kabutops:
+  :attack: 220
+  :defense: 186
+  :stamina: 155
+aerodactyl:
+  :attack: 221
+  :defense: 159
+  :stamina: 190
+snorlax:
+  :attack: 190
+  :defense: 169
+  :stamina: 330
+articuno:
+  :attack: 192
+  :defense: 236
+  :stamina: 207
+zapdos:
+  :attack: 253
+  :defense: 185
+  :stamina: 207
+moltres:
+  :attack: 251
+  :defense: 181
+  :stamina: 207
+dratini:
+  :attack: 119
+  :defense: 91
+  :stamina: 121
+dragonair:
+  :attack: 163
+  :defense: 135
+  :stamina: 156
+dragonite:
+  :attack: 263
+  :defense: 198
+  :stamina: 209
+mewtwo:
+  :attack: 300
+  :defense: 182
+  :stamina: 214
+mew:
+  :attack: 210
+  :defense: 210
+  :stamina: 225
+chikorita:
+  :attack: 92
+  :defense: 122
+  :stamina: 128
+bayleef:
+  :attack: 122
+  :defense: 155
+  :stamina: 155
+meganium:
+  :attack: 168
+  :defense: 202
+  :stamina: 190
+cyndaquil:
+  :attack: 116
+  :defense: 93
+  :stamina: 118
+quilava:
+  :attack: 158
+  :defense: 126
+  :stamina: 151
+typhlosion:
+  :attack: 223
+  :defense: 173
+  :stamina: 186
+totodile:
+  :attack: 117
+  :defense: 109
+  :stamina: 137
+croconaw:
+  :attack: 150
+  :defense: 142
+  :stamina: 163
+feraligatr:
+  :attack: 205
+  :defense: 188
+  :stamina: 198
+sentret:
+  :attack: 79
+  :defense: 73
+  :stamina: 111
+furret:
+  :attack: 148
+  :defense: 125
+  :stamina: 198
+hoothoot:
+  :attack: 67
+  :defense: 88
+  :stamina: 155
+noctowl:
+  :attack: 145
+  :defense: 156
+  :stamina: 225
+ledyba:
+  :attack: 72
+  :defense: 118
+  :stamina: 120
+ledian:
+  :attack: 107
+  :defense: 179
+  :stamina: 146
+spinarak:
+  :attack: 105
+  :defense: 73
+  :stamina: 120
+ariados:
+  :attack: 161
+  :defense: 124
+  :stamina: 172
+crobat:
+  :attack: 194
+  :defense: 178
+  :stamina: 198
+chinchou:
+  :attack: 106
+  :defense: 97
+  :stamina: 181
+lanturn:
+  :attack: 146
+  :defense: 137
+  :stamina: 268
+pichu:
+  :attack: 77
+  :defense: 53
+  :stamina: 85
+cleffa:
+  :attack: 75
+  :defense: 79
+  :stamina: 137
+igglybuff:
+  :attack: 69
+  :defense: 32
+  :stamina: 207
+togepi:
+  :attack: 67
+  :defense: 116
+  :stamina: 111
+togetic:
+  :attack: 139
+  :defense: 181
+  :stamina: 146
+natu:
+  :attack: 134
+  :defense: 89
+  :stamina: 120
+xatu:
+  :attack: 192
+  :defense: 146
+  :stamina: 163
+mareep:
+  :attack: 114
+  :defense: 79
+  :stamina: 146
+flaaffy:
+  :attack: 145
+  :defense: 109
+  :stamina: 172
+ampharos:
+  :attack: 211
+  :defense: 169
+  :stamina: 207
+bellossom:
+  :attack: 169
+  :defense: 186
+  :stamina: 181
+marill:
+  :attack: 37
+  :defense: 93
+  :stamina: 172
+azumarill:
+  :attack: 112
+  :defense: 152
+  :stamina: 225
+sudowoodo:
+  :attack: 167
+  :defense: 176
+  :stamina: 172
+politoed:
+  :attack: 174
+  :defense: 179
+  :stamina: 207
+hoppip:
+  :attack: 67
+  :defense: 94
+  :stamina: 111
+skiploom:
+  :attack: 91
+  :defense: 120
+  :stamina: 146
+jumpluff:
+  :attack: 118
+  :defense: 183
+  :stamina: 181
+aipom:
+  :attack: 136
+  :defense: 112
+  :stamina: 146
+sunkern:
+  :attack: 55
+  :defense: 55
+  :stamina: 102
+sunflora:
+  :attack: 185
+  :defense: 135
+  :stamina: 181
+yanma:
+  :attack: 154
+  :defense: 94
+  :stamina: 163
+wooper:
+  :attack: 75
+  :defense: 66
+  :stamina: 146
+quagsire:
+  :attack: 152
+  :defense: 143
+  :stamina: 216
+espeon:
+  :attack: 261
+  :defense: 175
+  :stamina: 163
+umbreon:
+  :attack: 126
+  :defense: 240
+  :stamina: 216
+murkrow:
+  :attack: 175
+  :defense: 87
+  :stamina: 155
+slowking:
+  :attack: 177
+  :defense: 180
+  :stamina: 216
+misdreavus:
+  :attack: 167
+  :defense: 154
+  :stamina: 155
+unown:
+  :attack: 136
+  :defense: 91
+  :stamina: 134
+wobbuffet:
+  :attack: 60
+  :defense: 106
+  :stamina: 382
+girafarig:
+  :attack: 182
+  :defense: 133
+  :stamina: 172
+pineco:
+  :attack: 108
+  :defense: 122
+  :stamina: 137
+forretress:
+  :attack: 161
+  :defense: 205
+  :stamina: 181
+dunsparce:
+  :attack: 131
+  :defense: 128
+  :stamina: 225
+gligar:
+  :attack: 143
+  :defense: 184
+  :stamina: 163
+steelix:
+  :attack: 148
+  :defense: 272
+  :stamina: 181
+snubbull:
+  :attack: 137
+  :defense: 85
+  :stamina: 155
+granbull:
+  :attack: 212
+  :defense: 131
+  :stamina: 207
+qwilfish:
+  :attack: 184
+  :defense: 138
+  :stamina: 163
+scizor:
+  :attack: 236
+  :defense: 181
+  :stamina: 172
+shuckle:
+  :attack: 17
+  :defense: 396
+  :stamina: 85
+heracross:
+  :attack: 234
+  :defense: 179
+  :stamina: 190
+sneasel:
+  :attack: 189
+  :defense: 146
+  :stamina: 146
+teddiursa:
+  :attack: 142
+  :defense: 93
+  :stamina: 155
+ursaring:
+  :attack: 236
+  :defense: 144
+  :stamina: 207
+slugma:
+  :attack: 118
+  :defense: 71
+  :stamina: 120
+magcargo:
+  :attack: 139
+  :defense: 191
+  :stamina: 137
+swinub:
+  :attack: 90
+  :defense: 69
+  :stamina: 137
+piloswine:
+  :attack: 181
+  :defense: 138
+  :stamina: 225
+corsola:
+  :attack: 118
+  :defense: 156
+  :stamina: 146
+remoraid:
+  :attack: 127
+  :defense: 69
+  :stamina: 111
+octillery:
+  :attack: 197
+  :defense: 141
+  :stamina: 181
+delibird:
+  :attack: 128
+  :defense: 90
+  :stamina: 128
+mantine:
+  :attack: 148
+  :defense: 226
+  :stamina: 163
+skarmory:
+  :attack: 148
+  :defense: 226
+  :stamina: 163
+houndour:
+  :attack: 152
+  :defense: 83
+  :stamina: 128
+houndoom:
+  :attack: 224
+  :defense: 144
+  :stamina: 181
+kingdra:
+  :attack: 194
+  :defense: 194
+  :stamina: 181
+phanpy:
+  :attack: 107
+  :defense: 98
+  :stamina: 207
+donphan:
+  :attack: 214
+  :defense: 185
+  :stamina: 207
+porygon2:
+  :attack: 198
+  :defense: 180
+  :stamina: 198
+stantler:
+  :attack: 192
+  :defense: 131
+  :stamina: 177
+smeargle:
+  :attack: 40
+  :defense: 83
+  :stamina: 146
+tyrogue:
+  :attack: 64
+  :defense: 64
+  :stamina: 111
+hitmontop:
+  :attack: 173
+  :defense: 207
+  :stamina: 137
+smoochum:
+  :attack: 153
+  :defense: 91
+  :stamina: 128
+elekid:
+  :attack: 135
+  :defense: 101
+  :stamina: 128
+magby:
+  :attack: 151
+  :defense: 99
+  :stamina: 128
+miltank:
+  :attack: 157
+  :defense: 193
+  :stamina: 216
+blissey:
+  :attack: 129
+  :defense: 169
+  :stamina: 496
+raikou:
+  :attack: 241
+  :defense: 195
+  :stamina: 207
+entei:
+  :attack: 235
+  :defense: 171
+  :stamina: 251
+suicune:
+  :attack: 180
+  :defense: 235
+  :stamina: 225
+larvitar:
+  :attack: 115
+  :defense: 93
+  :stamina: 137
+pupitar:
+  :attack: 155
+  :defense: 133
+  :stamina: 172
+tyranitar:
+  :attack: 251
+  :defense: 207
+  :stamina: 225
+lugia:
+  :attack: 193
+  :defense: 310
+  :stamina: 235
+ho-oh:
+  :attack: 239
+  :defense: 244
+  :stamina: 214
+celebi:
+  :attack: 210
+  :defense: 210
+  :stamina: 225
+treecko:
+  :attack: 124
+  :defense: 94
+  :stamina: 120
+grovyle:
+  :attack: 172
+  :defense: 120
+  :stamina: 137
+sceptile:
+  :attack: 223
+  :defense: 169
+  :stamina: 172
+torchic:
+  :attack: 130
+  :defense: 87
+  :stamina: 128
+combusken:
+  :attack: 163
+  :defense: 115
+  :stamina: 155
+blaziken:
+  :attack: 240
+  :defense: 141
+  :stamina: 190
+mudkip:
+  :attack: 126
+  :defense: 93
+  :stamina: 137
+marshtomp:
+  :attack: 156
+  :defense: 133
+  :stamina: 172
+swampert:
+  :attack: 208
+  :defense: 175
+  :stamina: 225
+poochyena:
+  :attack: 96
+  :defense: 61
+  :stamina: 111
+mightyena:
+  :attack: 171
+  :defense: 132
+  :stamina: 172
+zigzagoon:
+  :attack: 58
+  :defense: 80
+  :stamina: 116
+linoone:
+  :attack: 142
+  :defense: 128
+  :stamina: 186
+wurmple:
+  :attack: 75
+  :defense: 59
+  :stamina: 128
+silcoon:
+  :attack: 60
+  :defense: 77
+  :stamina: 137
+beautifly:
+  :attack: 189
+  :defense: 98
+  :stamina: 155
+cascoon:
+  :attack: 60
+  :defense: 77
+  :stamina: 137
+dustox:
+  :attack: 98
+  :defense: 162
+  :stamina: 155
+lotad:
+  :attack: 71
+  :defense: 77
+  :stamina: 120
+lombre:
+  :attack: 112
+  :defense: 119
+  :stamina: 155
+ludicolo:
+  :attack: 173
+  :defense: 176
+  :stamina: 190
+seedot:
+  :attack: 71
+  :defense: 77
+  :stamina: 120
+nuzleaf:
+  :attack: 134
+  :defense: 78
+  :stamina: 172
+shiftry:
+  :attack: 200
+  :defense: 121
+  :stamina: 207
+taillow:
+  :attack: 106
+  :defense: 61
+  :stamina: 120
+swellow:
+  :attack: 185
+  :defense: 124
+  :stamina: 155
+wingull:
+  :attack: 106
+  :defense: 61
+  :stamina: 120
+pelipper:
+  :attack: 175
+  :defense: 174
+  :stamina: 155
+ralts:
+  :attack: 79
+  :defense: 59
+  :stamina: 99
+kirlia:
+  :attack: 117
+  :defense: 90
+  :stamina: 116
+gardevoir:
+  :attack: 237
+  :defense: 195
+  :stamina: 169
+surskit:
+  :attack: 93
+  :defense: 87
+  :stamina: 120
+masquerain:
+  :attack: 192
+  :defense: 150
+  :stamina: 172
+shroomish:
+  :attack: 74
+  :defense: 110
+  :stamina: 155
+breloom:
+  :attack: 241
+  :defense: 144
+  :stamina: 155
+slakoth:
+  :attack: 104
+  :defense: 92
+  :stamina: 155
+vigoroth:
+  :attack: 159
+  :defense: 145
+  :stamina: 190
+slaking:
+  :attack: 290
+  :defense: 166
+  :stamina: 284
+nincada:
+  :attack: 80
+  :defense: 126
+  :stamina: 104
+ninjask:
+  :attack: 199
+  :defense: 112
+  :stamina: 156
+shedinja:
+  :attack: 153
+  :defense: 73
+  :stamina: 1
+whismur:
+  :attack: 92
+  :defense: 42
+  :stamina: 162
+loudred:
+  :attack: 134
+  :defense: 81
+  :stamina: 197
+exploud:
+  :attack: 179
+  :defense: 137
+  :stamina: 232
+makuhita:
+  :attack: 99
+  :defense: 54
+  :stamina: 176
+hariyama:
+  :attack: 209
+  :defense: 114
+  :stamina: 302
+azurill:
+  :attack: 36
+  :defense: 71
+  :stamina: 137
+nosepass:
+  :attack: 82
+  :defense: 215
+  :stamina: 102
+skitty:
+  :attack: 84
+  :defense: 79
+  :stamina: 137
+delcatty:
+  :attack: 132
+  :defense: 127
+  :stamina: 172
+sableye:
+  :attack: 141
+  :defense: 136
+  :stamina: 137
+mawile:
+  :attack: 155
+  :defense: 141
+  :stamina: 137
+aron:
+  :attack: 121
+  :defense: 141
+  :stamina: 137
+lairon:
+  :attack: 158
+  :defense: 198
+  :stamina: 155
+aggron:
+  :attack: 198
+  :defense: 257
+  :stamina: 172
+meditite:
+  :attack: 78
+  :defense: 107
+  :stamina: 102
+medicham:
+  :attack: 121
+  :defense: 152
+  :stamina: 155
+electrike:
+  :attack: 123
+  :defense: 78
+  :stamina: 120
+manectric:
+  :attack: 215
+  :defense: 127
+  :stamina: 172
+plusle:
+  :attack: 167
+  :defense: 129
+  :stamina: 155
+minun:
+  :attack: 147
+  :defense: 150
+  :stamina: 155
+volbeat:
+  :attack: 143
+  :defense: 166
+  :stamina: 163
+illumise:
+  :attack: 143
+  :defense: 166
+  :stamina: 163
+roselia:
+  :attack: 186
+  :defense: 131
+  :stamina: 137
+gulpin:
+  :attack: 80
+  :defense: 99
+  :stamina: 172
+swalot:
+  :attack: 140
+  :defense: 159
+  :stamina: 225
+carvanha:
+  :attack: 171
+  :defense: 39
+  :stamina: 128
+sharpedo:
+  :attack: 243
+  :defense: 83
+  :stamina: 172
+wailmer:
+  :attack: 136
+  :defense: 68
+  :stamina: 277
+wailord:
+  :attack: 175
+  :defense: 87
+  :stamina: 347
+numel:
+  :attack: 119
+  :defense: 79
+  :stamina: 155
+camerupt:
+  :attack: 194
+  :defense: 136
+  :stamina: 172
+torkoal:
+  :attack: 151
+  :defense: 203
+  :stamina: 172
+spoink:
+  :attack: 125
+  :defense: 122
+  :stamina: 155
+grumpig:
+  :attack: 171
+  :defense: 188
+  :stamina: 190
+spinda:
+  :attack: 116
+  :defense: 116
+  :stamina: 155
+trapinch:
+  :attack: 162
+  :defense: 78
+  :stamina: 128
+vibrava:
+  :attack: 134
+  :defense: 99
+  :stamina: 137
+flygon:
+  :attack: 205
+  :defense: 168
+  :stamina: 190
+cacnea:
+  :attack: 156
+  :defense: 74
+  :stamina: 137
+cacturne:
+  :attack: 221
+  :defense: 115
+  :stamina: 172
+swablu:
+  :attack: 76
+  :defense: 132
+  :stamina: 128
+altaria:
+  :attack: 141
+  :defense: 201
+  :stamina: 181
+zangoose:
+  :attack: 222
+  :defense: 124
+  :stamina: 177
+seviper:
+  :attack: 196
+  :defense: 118
+  :stamina: 177
+lunatone:
+  :attack: 178
+  :defense: 153
+  :stamina: 207
+solrock:
+  :attack: 178
+  :defense: 153
+  :stamina: 207
+barboach:
+  :attack: 93
+  :defense: 82
+  :stamina: 137
+whiscash:
+  :attack: 151
+  :defense: 141
+  :stamina: 242
+corphish:
+  :attack: 141
+  :defense: 99
+  :stamina: 125
+crawdaunt:
+  :attack: 224
+  :defense: 142
+  :stamina: 160
+baltoy:
+  :attack: 77
+  :defense: 124
+  :stamina: 120
+claydol:
+  :attack: 140
+  :defense: 229
+  :stamina: 155
+lileep:
+  :attack: 105
+  :defense: 150
+  :stamina: 165
+cradily:
+  :attack: 152
+  :defense: 194
+  :stamina: 200
+anorith:
+  :attack: 176
+  :defense: 100
+  :stamina: 128
+armaldo:
+  :attack: 222
+  :defense: 174
+  :stamina: 181
+feebas:
+  :attack: 29
+  :defense: 85
+  :stamina: 85
+milotic:
+  :attack: 192
+  :defense: 219
+  :stamina: 216
+castform:
+  :attack: 139
+  :defense: 139
+  :stamina: 172
+kecleon:
+  :attack: 161
+  :defense: 189
+  :stamina: 155
+shuppet:
+  :attack: 138
+  :defense: 65
+  :stamina: 127
+banette:
+  :attack: 218
+  :defense: 126
+  :stamina: 162
+duskull:
+  :attack: 70
+  :defense: 162
+  :stamina: 85
+dusclops:
+  :attack: 124
+  :defense: 234
+  :stamina: 120
+tropius:
+  :attack: 136
+  :defense: 163
+  :stamina: 223
+chimecho:
+  :attack: 175
+  :defense: 170
+  :stamina: 181
+absol:
+  :attack: 246
+  :defense: 120
+  :stamina: 163
+wynaut:
+  :attack: 41
+  :defense: 86
+  :stamina: 216
+snorunt:
+  :attack: 95
+  :defense: 95
+  :stamina: 137
+glalie:
+  :attack: 162
+  :defense: 162
+  :stamina: 190
+spheal:
+  :attack: 95
+  :defense: 90
+  :stamina: 172
+sealeo:
+  :attack: 137
+  :defense: 132
+  :stamina: 207
+walrein:
+  :attack: 182
+  :defense: 176
+  :stamina: 242
+clamperl:
+  :attack: 133
+  :defense: 135
+  :stamina: 111
+huntail:
+  :attack: 197
+  :defense: 179
+  :stamina: 146
+gorebyss:
+  :attack: 211
+  :defense: 179
+  :stamina: 146
+relicanth:
+  :attack: 162
+  :defense: 203
+  :stamina: 225
+luvdisc:
+  :attack: 81
+  :defense: 128
+  :stamina: 125
+bagon:
+  :attack: 134
+  :defense: 93
+  :stamina: 128
+shelgon:
+  :attack: 172
+  :defense: 155
+  :stamina: 163
+salamence:
+  :attack: 277
+  :defense: 168
+  :stamina: 216
+beldum:
+  :attack: 96
+  :defense: 132
+  :stamina: 120
+metang:
+  :attack: 138
+  :defense: 176
+  :stamina: 155
+metagross:
+  :attack: 257
+  :defense: 228
+  :stamina: 190
+regirock:
+  :attack: 179
+  :defense: 309
+  :stamina: 190
+regice:
+  :attack: 179
+  :defense: 309
+  :stamina: 190
+registeel:
+  :attack: 143
+  :defense: 285
+  :stamina: 190
+latias:
+  :attack: 228
+  :defense: 246
+  :stamina: 190
+latios:
+  :attack: 268
+  :defense: 212
+  :stamina: 190
+kyogre:
+  :attack: 270
+  :defense: 228
+  :stamina: 205
+groudon:
+  :attack: 270
+  :defense: 228
+  :stamina: 205
+rayquaza:
+  :attack: 284
+  :defense: 170
+  :stamina: 213
+jirachi:
+  :attack: 210
+  :defense: 210
+  :stamina: 225
+deoxys:
+  :attack: 345
+  :defense: 115
+  :stamina: 137
+turtwig:
+  :attack: 119
+  :defense: 110
+  :stamina: 146
+grotle:
+  :attack: 157
+  :defense: 143
+  :stamina: 181
+torterra:
+  :attack: 202
+  :defense: 188
+  :stamina: 216
+chimchar:
+  :attack: 113
+  :defense: 86
+  :stamina: 127
+monferno:
+  :attack: 158
+  :defense: 105
+  :stamina: 162
+infernape:
+  :attack: 222
+  :defense: 151
+  :stamina: 183
+piplup:
+  :attack: 112
+  :defense: 102
+  :stamina: 142
+prinplup:
+  :attack: 150
+  :defense: 139
+  :stamina: 162
+empoleon:
+  :attack: 210
+  :defense: 186
+  :stamina: 197
+starly:
+  :attack: 101
+  :defense: 58
+  :stamina: 120
+staravia:
+  :attack: 142
+  :defense: 94
+  :stamina: 146
+staraptor:
+  :attack: 234
+  :defense: 140
+  :stamina: 198
+bidoof:
+  :attack: 80
+  :defense: 73
+  :stamina: 153
+bibarel:
+  :attack: 162
+  :defense: 119
+  :stamina: 188
+kricketot:
+  :attack: 45
+  :defense: 74
+  :stamina: 114
+kricketune:
+  :attack: 160
+  :defense: 100
+  :stamina: 184
+shinx:
+  :attack: 117
+  :defense: 64
+  :stamina: 128
+luxio:
+  :attack: 159
+  :defense: 95
+  :stamina: 155
+luxray:
+  :attack: 232
+  :defense: 156
+  :stamina: 190
+budew:
+  :attack: 91
+  :defense: 109
+  :stamina: 120
+roserade:
+  :attack: 243
+  :defense: 185
+  :stamina: 155
+cranidos:
+  :attack: 218
+  :defense: 71
+  :stamina: 167
+rampardos:
+  :attack: 295
+  :defense: 109
+  :stamina: 219
+shieldon:
+  :attack: 76
+  :defense: 195
+  :stamina: 102
+bastiodon:
+  :attack: 94
+  :defense: 286
+  :stamina: 155
+burmy:
+  :attack: 53
+  :defense: 83
+  :stamina: 120
+wormadam:
+  :attack: 141
+  :defense: 180
+  :stamina: 155
+mothim:
+  :attack: 185
+  :defense: 98
+  :stamina: 172
+combee:
+  :attack: 59
+  :defense: 83
+  :stamina: 102
+vespiquen:
+  :attack: 149
+  :defense: 190
+  :stamina: 172
+pachirisu:
+  :attack: 94
+  :defense: 172
+  :stamina: 155
+buizel:
+  :attack: 132
+  :defense: 67
+  :stamina: 146
+floatzel:
+  :attack: 221
+  :defense: 114
+  :stamina: 198
+cherubi:
+  :attack: 108
+  :defense: 92
+  :stamina: 128
+cherrim:
+  :attack: 170
+  :defense: 153
+  :stamina: 172
+shellos:
+  :attack: 103
+  :defense: 105
+  :stamina: 183
+gastrodon:
+  :attack: 169
+  :defense: 143
+  :stamina: 244
+ambipom:
+  :attack: 205
+  :defense: 143
+  :stamina: 181
+drifloon:
+  :attack: 117
+  :defense: 80
+  :stamina: 207
+drifblim:
+  :attack: 180
+  :defense: 102
+  :stamina: 312
+buneary:
+  :attack: 130
+  :defense: 105
+  :stamina: 146
+lopunny:
+  :attack: 156
+  :defense: 194
+  :stamina: 163
+mismagius:
+  :attack: 211
+  :defense: 187
+  :stamina: 155
+honchkrow:
+  :attack: 243
+  :defense: 103
+  :stamina: 225
+glameow:
+  :attack: 109
+  :defense: 82
+  :stamina: 135
+purugly:
+  :attack: 172
+  :defense: 133
+  :stamina: 174
+chingling:
+  :attack: 114
+  :defense: 94
+  :stamina: 128
+stunky:
+  :attack: 121
+  :defense: 90
+  :stamina: 160
+skuntank:
+  :attack: 184
+  :defense: 132
+  :stamina: 230
+bronzor:
+  :attack: 43
+  :defense: 154
+  :stamina: 149
+bronzong:
+  :attack: 161
+  :defense: 213
+  :stamina: 167
+bonsly:
+  :attack: 124
+  :defense: 133
+  :stamina: 137
+mime jr.:
+  :attack: 125
+  :defense: 142
+  :stamina: 85
+happiny:
+  :attack: 25
+  :defense: 77
+  :stamina: 225
+chatot:
+  :attack: 183
+  :defense: 91
+  :stamina: 183
+spiritomb:
+  :attack: 169
+  :defense: 199
+  :stamina: 137
+gible:
+  :attack: 124
+  :defense: 84
+  :stamina: 151
+gabite:
+  :attack: 172
+  :defense: 125
+  :stamina: 169
+garchomp:
+  :attack: 261
+  :defense: 193
+  :stamina: 239
+munchlax:
+  :attack: 137
+  :defense: 117
+  :stamina: 286
+riolu:
+  :attack: 127
+  :defense: 78
+  :stamina: 120
+lucario:
+  :attack: 236
+  :defense: 144
+  :stamina: 172
+hippopotas:
+  :attack: 124
+  :defense: 118
+  :stamina: 169
+hippowdon:
+  :attack: 201
+  :defense: 191
+  :stamina: 239
+skorupi:
+  :attack: 93
+  :defense: 151
+  :stamina: 120
+drapion:
+  :attack: 180
+  :defense: 202
+  :stamina: 172
+croagunk:
+  :attack: 116
+  :defense: 76
+  :stamina: 134
+toxicroak:
+  :attack: 211
+  :defense: 133
+  :stamina: 195
+carnivine:
+  :attack: 187
+  :defense: 136
+  :stamina: 179
+finneon:
+  :attack: 96
+  :defense: 116
+  :stamina: 135
+lumineon:
+  :attack: 142
+  :defense: 170
+  :stamina: 170
+mantyke:
+  :attack: 105
+  :defense: 179
+  :stamina: 128
+snover:
+  :attack: 115
+  :defense: 105
+  :stamina: 155
+abomasnow:
+  :attack: 178
+  :defense: 158
+  :stamina: 207
+weavile:
+  :attack: 243
+  :defense: 171
+  :stamina: 172
+magnezone:
+  :attack: 238
+  :defense: 205
+  :stamina: 172
+lickilicky:
+  :attack: 161
+  :defense: 181
+  :stamina: 242
+rhyperior:
+  :attack: 241
+  :defense: 190
+  :stamina: 251
+tangrowth:
+  :attack: 207
+  :defense: 184
+  :stamina: 225
+electivire:
+  :attack: 249
+  :defense: 163
+  :stamina: 181
+magmortar:
+  :attack: 247
+  :defense: 172
+  :stamina: 181
+togekiss:
+  :attack: 225
+  :defense: 217
+  :stamina: 198
+yanmega:
+  :attack: 231
+  :defense: 156
+  :stamina: 200
+leafeon:
+  :attack: 216
+  :defense: 219
+  :stamina: 163
+glaceon:
+  :attack: 238
+  :defense: 205
+  :stamina: 163
+gliscor:
+  :attack: 185
+  :defense: 222
+  :stamina: 181
+mamoswine:
+  :attack: 247
+  :defense: 146
+  :stamina: 242
+porygon-z:
+  :attack: 264
+  :defense: 150
+  :stamina: 198
+gallade:
+  :attack: 237
+  :defense: 195
+  :stamina: 169
+probopass:
+  :attack: 135
+  :defense: 275
+  :stamina: 155
+dusknoir:
+  :attack: 180
+  :defense: 254
+  :stamina: 128
+froslass:
+  :attack: 171
+  :defense: 150
+  :stamina: 172
+rotom:
+  :attack: 185
+  :defense: 159
+  :stamina: 137
+uxie:
+  :attack: 156
+  :defense: 270
+  :stamina: 181
+mesprit:
+  :attack: 212
+  :defense: 212
+  :stamina: 190
+azelf:
+  :attack: 270
+  :defense: 151
+  :stamina: 181
+dialga:
+  :attack: 275
+  :defense: 211
+  :stamina: 205
+palkia:
+  :attack: 280
+  :defense: 215
+  :stamina: 189
+heatran:
+  :attack: 251
+  :defense: 213
+  :stamina: 209
+regigigas:
+  :attack: 287
+  :defense: 210
+  :stamina: 221
+giratina:
+  :attack: 187
+  :defense: 225
+  :stamina: 284
+cresselia:
+  :attack: 152
+  :defense: 258
+  :stamina: 260
+phione:
+  :attack: 162
+  :defense: 162
+  :stamina: 190
+manaphy:
+  :attack: 210
+  :defense: 210
+  :stamina: 225
+darkrai:
+  :attack: 285
+  :defense: 198
+  :stamina: 172
+shaymin:
+  :attack: 210
+  :defense: 210
+  :stamina: 225
+arceus:
+  :attack: 238
+  :defense: 238
+  :stamina: 237
+meltan:
+  :attack: 118
+  :defense: 99
+  :stamina: 130
+melmetal:
+  :attack: 226
+  :defense: 190
+  :stamina: 264

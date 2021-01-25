@@ -1,0 +1,51 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    aws-eventstream (1.0.3)
+    aws-partitions (1.292.0)
+    aws-record (2.4.0)
+      aws-sdk-dynamodb (~> 1.18)
+    aws-sdk-core (3.92.0)
+      aws-eventstream (~> 1.0, >= 1.0.2)
+      aws-partitions (~> 1, >= 1.239.0)
+      aws-sigv4 (~> 1.1)
+      jmespath (~> 1.0)
+    aws-sdk-dynamodb (1.45.0)
+      aws-sdk-core (~> 3, >= 3.71.0)
+      aws-sigv4 (~> 1.1)
+    aws-sigv4 (1.1.1)
+      aws-eventstream (~> 1.0, >= 1.0.2)
+    colored (1.2)
+    jmespath (1.4.0)
+    json (2.3.0)
+    mustermann (1.1.1)
+      ruby2_keywords (~> 0.0.1)
+    rack (2.2.3)
+    rack-contrib (2.2.0)
+      rack (~> 2.0)
+    rack-protection (2.0.8.1)
+      rack
+    ruby2_keywords (0.0.2)
+    sinatra (2.0.8.1)
+      mustermann (~> 1.0)
+      rack (~> 2.0)
+      rack-protection (= 2.0.8.1)
+      tilt (~> 2.0)
+    tilt (2.0.10)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  aws-record
+  colored
+  json
+  rack
+  rack-contrib
+  sinatra
+
+RUBY VERSION
+   ruby 2.7.0p0
+
+BUNDLED WITH
+   2.1.2

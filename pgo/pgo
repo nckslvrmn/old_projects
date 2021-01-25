@@ -1,0 +1,104 @@
+#!/usr/bin/env ruby
+
+require 'optparse'
+require 'yaml'
+
+@base_stats = YAML.load_file('db/base_stats.yaml')
+@cp_multipliers = YAML.load_file('db/cp_multipliers.yaml')
+
+@options = {
+  command: nil,
+  mon_name: nil,
+  level: nil,
+  cp: nil,
+  hp: nil
+}
+
+def output_global_help_text
+  puts "Usage: ./pgo COMMAND OPTIONS
+
+Commonly used command are:
+  perf_cps :  display perfect cps of a pokemon by level.
+  calc_ivs :  calculate possible IVs of given pokemon.
+
+run './pgo COMMAND -h' for more information on a specific command.\n"
+end
+
+def parse_args
+  commands = {
+    'perf_cps' => OptionParser.new do |opts|
+      # setup_global_args(opts)
+      opts.banner = 'Usage: ./pgo perf_cps OPTIONS'
+      opts.on('-p POKEMON', '--pokemon POKEMON', 'pokemon to display perfect CPs for') do |v|
+        @options[:mon_name] = v
+      end
+      opts.on('-l LEVEL', '--level LEVEL', 'pokemon level. if nil, show all levels') do |v|
+        @options[:level] = v
+      end
+    end,
+    'calc_ivs' => OptionParser.new do |opts|
+      # setup_global_args(opts)
+      opts.banner = 'Usage: ./pgo calc_ivs OPTIONS'
+      opts.on('-p POKEMON', '--pokemon POKEMON', 'pokemon to display perfect CPs for') do |v|
+        @options[:mon_name] = v
+      end
+      opts.on('-l LEVEL', '--level LEVEL', 'pokemon level') do |v|
+        @options[:level] = v
+      end
+      opts.on('-c CP', '--cp CP', 'pokemon cp') do |v|
+        @options[:cp] = v
+      end
+      opts.on('-h HP', '--hp HP', 'pokemon hp') do |v|
+        @options[:hp] = v
+      end
+    end
+  }
+
+  command = ARGV.shift
+  if commands.key?(command)
+    @options[:command] = command
+    commands[command].order!
+  else
+    output_global_help_text
+    exit 1
+  end
+end
+
+def calc_cp(base_att, iv_att, base_def, iv_def, base_sta, iv_sta, cpm)
+  ((base_att + iv_att) * Math.sqrt(base_def + iv_def) * Math.sqrt(base_sta + iv_sta) * (cpm**2)) / 10
+end
+
+def perf_cps(mon_name, level)
+  mon = @base_stats[mon_name]
+  multipliers = level ? { "#{level}": @cp_multipliers[level.to_i] } : @cp_multipliers
+  multipliers.each do |lvl, multiplier|
+    combo_cp = calc_cp(mon[:attack], 15, mon[:defense], 15, mon[:stamina], 15, multiplier)
+    puts "#{lvl}: #{combo_cp.round}"
+  end
+end
+
+def calc_ivs(mon_name, cp, level, hp)
+  multiplier = @cp_multipliers[level.to_i]
+  mon = @base_stats[mon_name]
+  possible_staminas = [*0..15].map do |i|
+    i if hp.to_i == ((mon[:stamina] + i) * multiplier).floor
+  end.compact.uniq
+  possible_ivs = [*0..15].product([*0..15].product(possible_staminas)).map(&:flatten)
+  possible_ivs.each do |iv_combo|
+    combo_cp = calc_cp(mon[:attack], iv_combo[0], mon[:defense], iv_combo[1], mon[:stamina], iv_combo[2], multiplier)
+    iv_percent = ((iv_combo.sum / 45.0) * 100).round
+    puts "#{iv_combo} #{iv_percent}%" if cp.to_i == combo_cp.floor
+  end
+end
+
+def main
+  parse_args
+  case @options[:command]
+  when 'perf_cps'
+    perf_cps(@options[:mon_name], @options[:level])
+  when 'calc_ivs'
+    calc_ivs(@options[:mon_name], @options[:cp], @options[:level], @options[:hp])
+  end
+end
+
+main

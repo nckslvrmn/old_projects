@@ -1,0 +1,5 @@
+---
+api_key: 'SomeAPIKey'
+display_name: 'SomeUserName'
+membership_type: 2
+verbose: true

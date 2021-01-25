@@ -1,0 +1,56 @@
+body {
+  background: #eee;
+  color: #222;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  font-size: 2em;
+  margin: 100px 0 25px 0;
+  position: relative;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .counter {
+    margin: 50px auto 25px auto;
+    position: relative;
+    width: 360px;
+  }
+}
+
+@media (min-width: 500px) {
+  .counter {
+    margin: 50px auto 25px auto;
+    position: relative;
+    width: 500px;
+  }
+}
+
+form {
+  display: inline;
+}
+
+input[type=number] {
+  background: transparent;
+  text-align: center;
+  border: none;
+  font-size: 1.5em;
+  height: 30px;
+  outline: none;
+  padding: 15px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+button {
+  border: solid 1px #222;
+  cursor: pointer;
+  font-size: 0.875em;
+  width: 75%;
+  margin: 0 12.5% 0 12.5%;
+  height: 62px;
+  vertical-align: top;
+  background: transparent;
+  margin-bottom: 20px;
+}
